@@ -17,6 +17,7 @@ namespace PHP_Travel.PageModels
             driver.FindElement(By.Id("email")).SendKeys(email);
             driver.FindElement(By.Id("passwd")).SendKeys(password);
             driver.FindElement(By.Id("SubmitLogin")).Click();
+            Helpers.CheckPageDisplayed("MY ACCOUNT");
         }
     }
 }

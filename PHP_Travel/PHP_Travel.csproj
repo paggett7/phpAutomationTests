@@ -54,11 +54,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers.cs" />
     <Compile Include="PageModels\LogonPage.cs" />
+    <Compile Include="PageModels\MyAccount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setup\SetupDriver.cs" />
     <Compile Include="Tests\HomePageTests.cs" />
+    <Compile Include="Tests\MyAccountPageTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
