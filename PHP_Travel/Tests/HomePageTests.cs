@@ -18,5 +18,26 @@ namespace PHP_Travel.Tests
             LogonPage.Login("jp.automationuser@gmail.com", "Testing!@#");
             Thread.Sleep(5000);
         }
+
+        [Test]
+        public void GoToDresses()
+        {
+            LogonPage.Login("jp.automationuser@gmail.com", "Testing!@#");
+            Helpers.MenuToolbar.Dresses();
+        }
+
+        [Test]
+        public void GoToWomen()
+        {
+            LogonPage.Login("jp.automationuser@gmail.com", "Testing!@#");
+            Helpers.MenuToolbar.Women();
+        }
+
+        [Test]
+        public void GoToTshirts()
+        {
+            LogonPage.Login("jp.automationuser@gmail.com", "Testing!@#");
+            Helpers.MenuToolbar.TShirts();
+        }
     }
 }
