@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helpers.cs" />
+    <Compile Include="PageModels\Dresses.cs" />
     <Compile Include="PageModels\LogonPage.cs" />
     <Compile Include="PageModels\MyAccount.cs" />
     <Compile Include="Program.cs" />
